@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.merlin.oldfog.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AtmosphericFogColorMixin",
+    "FogRendererMixin",
+    "AtmosphericFogEnvironmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
